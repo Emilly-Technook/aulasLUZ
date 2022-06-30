@@ -189,3 +189,9 @@ void postOrder(POINT raiz) {
 // https://www.youtube.com/watch?v=3koM42vL6js
 
 // https://www.freecodecamp.org/portuguese/news/arvores-binarias-de-busca-bst-explicada-com-exemplos/#:~:text=P%C3%B3s%2Dordem%20(post%2Dorder,em%20rela%C3%A7%C3%A3o%20%C3%A0s%20travessias%20anteriores.
+
+// Algoritimo	Caso Médio	Pior Caso
+// Espaço		O(n)	    O(n)
+// Busca		O(log n)	O(n)
+// Inserção		O(log n)	O(n)
+// Remoção		O(log n)	O(n)

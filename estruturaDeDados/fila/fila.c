@@ -1,4 +1,4 @@
-// Estrutura linear na qual a inserção e remoção de ites segue o FIFO
+// Estrutura linear na qual a inserção e remoção de itens segue o FIFO
 //(fist-in-first-out) 
 // Os objetos pode ser inseridos a qualquer momento, mas apenas o objeto
 // a mais tempo na fila pode ser removido
@@ -43,6 +43,7 @@ void enqueue(Fila *fila,  int valor){
 	}
 	fila->ultm = no;
 	fila->tam++;
+	free(no);
 }
 
 // remover elementos no inicio da fila

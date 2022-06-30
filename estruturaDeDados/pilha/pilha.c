@@ -51,8 +51,8 @@ void push(Pilha *pilha, int valor){
 void pop(Pilha *pilha){
   No *no = pilha->topo;
   pilha->topo = no->prox;
-  free(no);
   pilha->tam--;
+  free(no);
 } 
 
 void limpar(Pilha *pilha){

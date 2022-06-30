@@ -52,6 +52,7 @@ void inserirNoIni(int valor, Lista *lista){
 void removerNoIni(Lista *lista){
 	No *aux = lista->prim;
 	lista->prim = aux->prox;
+	lista->tam--;
 	free(aux);
 }
 
